@@ -10,10 +10,10 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rk</groupId>
-	<artifactId>student</artifactId>
+	<artifactId>Microservices</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>student</name>
-	<description>Student</description>
+	<description>Microservices</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
