@@ -1,12 +1,12 @@
 ---
 applications:
-  - name: student_wo_hibernate
+  - name: student_xsuaa_test
     memory: 1024M
     buildpack: sap_java_buildpack
     instances: 1
     random-route: true
-    host: khatwa-upload
+    host: xsuaa-test
     timeout: 100
-    path: ./target/student-0.0.2-SNAPSHOT.jar
-env:
- JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+    path: ./xsuaa/target/Microservices-0.0.2-SNAPSHOT.war
+services:
+- xsuaa

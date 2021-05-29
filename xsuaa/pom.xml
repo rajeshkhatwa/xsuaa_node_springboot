@@ -13,6 +13,7 @@
 	<artifactId>Microservices</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>student</name>
+	<packaging>war</packaging>
 	<description>Microservices</description>
 	<properties>
 		<java.version>1.8</java.version>

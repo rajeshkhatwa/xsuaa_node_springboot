@@ -33,6 +33,7 @@ public class SecurityModule extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
             .antMatchers("/students").hasAuthority("readDataKhatwa")
+            //.antMatchers("/students").permitAll()
             .antMatchers("/students**").denyAll()
             .anyRequest().permitAll()
             .and()

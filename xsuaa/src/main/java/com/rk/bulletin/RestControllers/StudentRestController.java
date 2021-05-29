@@ -16,7 +16,7 @@ import com.rk.bulletin.Entities.Student;
 
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
 public class StudentRestController {
 
 	private List<Student> theStudents;
