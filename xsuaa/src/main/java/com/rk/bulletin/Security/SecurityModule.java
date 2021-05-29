@@ -17,8 +17,9 @@ import com.sap.cloud.security.xsuaa.token.TokenAuthenticationConverter;
 public class SecurityModule extends WebSecurityConfigurerAdapter {
   
 	
-	@Autowired
-    XsuaaServiceConfiguration xsuaaServiceConfiguration;
+   @Autowired
+	XsuaaServiceConfiguration xsuaaServiceConfiguration;
+
 
 	
 	Converter<Jwt, AbstractAuthenticationToken> getJwtAuthoritiesConverter() {
