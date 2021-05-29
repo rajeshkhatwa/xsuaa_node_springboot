@@ -34,7 +34,7 @@ public class SecurityModule extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
             .antMatchers("/students").hasAuthority("readDataKhatwa")
             .antMatchers("/students**").denyAll()
-            .anyRequest().denyAll()
+            .anyRequest().permitAll()
             .and()
             .oauth2ResourceServer()
             .jwt()
