@@ -1,16 +1,12 @@
 
 this is for Microservice and available on Github
 
+xsuaa service is added ...check xs.security.json file in the folder that we have 
+
+
 https://github.com/rajeshkhatwa/xsuaa_node_springboot
 
 Without hibernate
 
 Returns list of Arryalist of Students
 
-
-even though the Git repo is with hibernate ..but this is without hibernate 
-
-Repository https://github.com/rajeshkhatwa/Springboot-studentHibernate.git
-
-also ...
-with hibernate employee is the one 

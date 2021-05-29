@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BulletinApplication<Microservices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.rk.bulletin.BulletinApplication",
+            "projectName": "Microservices",
+            "args": ""
+        }
+    ]
+}

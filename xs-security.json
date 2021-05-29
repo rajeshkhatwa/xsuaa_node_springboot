@@ -1,0 +1,20 @@
+{
+    "xsappname": "myDemoXSApp",
+    "tenant-mode": "dedicated",
+    "scopes": [
+        {
+            "name": "$XSAPPNAME.readDataKhatwa",
+            "description": "display"
+        }
+    ],
+    "role-templates": [
+        {
+            "name": "DataViewer",
+            "description": "Can view Data",
+            "scope-references": [
+                "$XSAPPNAME.readDataKhatwa"
+                          ]
+
+        }
+    ]
+}
